@@ -5,15 +5,16 @@
 }
 .header {
   width: 100%;
-}
-.header_bar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   background-color: white;
-  margin: 0 auto;
   z-index: 1;
+}
+.header_bar {
+  width: 1100px;
+  margin: 0 auto;
 }
 .fa-bolt {
   float:left;
@@ -26,7 +27,6 @@
   -moz-font-smoothing: grayscale;
   color: #777777;
   margin: 15px 0;
-  margin-left: 12%;
 }
 .contact_btn {
   float: right;
@@ -36,15 +36,11 @@
   color: white;
   text-align: center;
   width:50px;
-  margin-right: 12%;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.main {
-  width: 100%;
-}
-.main_box {
-  /*width: 1100px;*/
+.title_box {
+  width: 1100px;
   margin: 0 auto;
 }
 .main_title {
@@ -65,32 +61,38 @@
   background-color: #74cfae;
   margin-bottom: 60px;
   text-align: center;
+  width: 100%;
+}
+.main_bar_inner {
+  width: 1100px;
+  margin: 0 auto;
 }
 .iphone {
   float: left;
   margin-top: 50px;
-  margin-left: 200px;
   font-size: 0;
 }
 .main_text_box {
   float: right;
   width: 100%;
   margin-top: 80px;
-  margin-left: -408px;
-  padding-left: 528px;
-  padding-right: 200px;
+  margin-left: -208px;
+  padding-left: 408px;
   box-sizing: border-box;
 }
 .main_bar_text_title {
   font-size: 24px;
   color: white;
-
 }
 .main_bar_text {
   margin-top: 35px;
   font-size: 20px;
   color: white;
   line-height: 25px;
+}
+.our_latest {
+  width: 1100px;
+  margin: 0 auto;
 }
 .main_top_title {
   font-size: 24px;
@@ -122,8 +124,8 @@
   margin-left: 0;
 }
 .main_middle_textbox {
+  margin-top: 90px;
   margin-bottom: 70px;
-  padding-right: 90px;
   text-align: center;
 }
 .main_middle_text {
@@ -151,10 +153,15 @@
   color: #333;
 }
 .main_under_bar {
+  width: 100%;
   background-color: #4e4e4e;
   padding-top: 70px;
   padding-bottom: 100px;
   margin-bottom: 200px;
+}
+.main_under_box {
+  width: 1100px;
+  margin: 0 auto;
 }
 .main_under_title {
   font-size: 24px;
@@ -179,6 +186,11 @@
   text-align: center;
   margin-bottom: 200px;
   font-size: 0;
+  width: 100%;
+}
+.sns_box {
+  width: 1100px;
+  margin: 0 auto;
 }
 .sns_icon {
   width: 185px;
@@ -204,9 +216,10 @@
 }
 .footer {
   width: 100%;
+  background-color: #74cfae;
 }
 .footer_bar {
-  background-color: #74cfae;
+  width: 1100px;
   margin: 0 auto;
 }
 .footer_text {
@@ -216,5 +229,4 @@
   color: white;
   font-size: 12px;
   text-align: center;
-  margin-right: 15%;
 }
