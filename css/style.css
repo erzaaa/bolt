@@ -126,6 +126,16 @@
   padding-right: 90px;
   text-align: center;
 }
+.main_middle_text {
+  float: left;
+  width: 100%;
+  margin-right: -360px;
+  padding-left: 220px;
+  padding-right: 460px;
+  box-sizing: border-box;
+  line-height: 25px;
+  color: #4e4e4e;
+}
 .send_mail_btn {
   float: right;
   background-color: #74cfae;
@@ -136,16 +146,6 @@
   width: 70px;
   text-align: center;
   transition: .3s;
-}
-.main_middle_text {
-  float: left;
-  width: 100%;
-  margin-right: -360px;
-  padding-left: 220px;
-  padding-right: 460px;
-  box-sizing: border-box;
-  line-height: 25px;
-  color: #4e4e4e;
 }
 .send_mail_btn:hover {
   color: #333;
