@@ -19,10 +19,8 @@
 .header_bar {
   padding: 15px 0;
 }
-.fa {
+.fa_bolt {
   font-size: 50px;
-}
-.fa-bolt {
   float:left;
   color: #777777;
 }
@@ -35,11 +33,14 @@
   text-align: center;
   width:50px;
 }
+.main {
+  padding-top: 80px;
+}
 .title {
   width: 100%;
 }
 .title_box {
-  padding-top: 330px;
+  padding-top: 250px;
   padding-bottom: 250px;
 }
 .main_title {
@@ -65,11 +66,12 @@
 .iphone {
   float: left;
   font-size: 0;
+  width: 400px;
 }
 .main_text_box {
   float: right;
   width: 100%;
-  margin-left: -208px;
+  margin-left: -408px;
   padding-left: 408px;
   box-sizing: border-box;
 }
@@ -99,12 +101,10 @@
 .picture_box {
   margin-bottom: 90px;
   text-align: center;
-  margin-bottom: 80px;
   font-size: 0;
 }
 .picture {
   margin-left: 100px;
-  margin-bottom: 80px;
   display: inline-block;
   transition: .3s;
   opacity: 0.7;
@@ -113,7 +113,7 @@
   opacity: 1;
 }
 .picture:nth-child(n+4) {
-  margin-bottom: 0;
+  margin-top: 80px;
 }
 .picture:nth-child(3n+1) {
   margin-left: 0;
@@ -186,13 +186,12 @@
 }
 .sns_icon {
   width: 185px;
+  font-size: 50px;
   display: inline-block;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
   transition: background-color .3s;
-}
-.fasns {
   color: #74cfae;
 }
 .sns_icon:hover {
