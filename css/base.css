@@ -11,3 +11,6 @@ body {
 a {
   text-decoration: none;
 }
+/*<?php if ( wp_is_mobile() ) : ?>
+<?php endif; ?>*/
+/*スマホだけで表示させるのに、ハンバーガーメニューをこれで囲う*/

@@ -16,10 +16,22 @@
   <body>
     <header class="header">
       <div class="common_style header_bar clearfix">
-        <i class="fa fa-bolt fa_bolt"></i>
         <a href class="contact_btn">
-          <p>Contact</p>
+              <p>Contact</p>
         </a>
+        <i class="fa fa-bolt fa_bolt"></i>
+        <nav class="hamburger_nav">
+          <a href="#" class="menu_trigger">
+            <span class="menu_bar"></span>
+            <span class="menu_bar"></span>
+            <span class="menu_bar"></span>
+          </a>
+        </nav>
+      </div>
+      <div class="menu_inner">
+          <a href class="inner_contact_btn">
+            <p>Contact</p>
+          </a>
       </div>
     </header>
     <main class="main">
@@ -116,6 +128,22 @@
         <p class="footer_text">Crafted with ❤︎ by BlankTie.co.</p>
       </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/script.js">
+      document.getElementsByClassName("inner_contact_btn").style.display ="none";
+
+      var el = document.getElementsByClassName("inner_contact_btn");
+
+      var em = document.getElementsByClassName("menu_trigger");
+
+      em.addEventListener("click", function() {
+      if (el.style.display == "none") {
+          el.style.display = "block";
+      }else{
+          el.style.display = "none";
+      }
+    }, false);
+    </script>
   </body>
 </html>
+
+
