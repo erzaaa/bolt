@@ -211,6 +211,12 @@
   text-align: right;
   font-family: 'Lato', sans-serif;
 }
+.inner_contact_btn {
+  display: none;
+}
+.sub_title_half {
+  display: none;
+}
 @media screen and (max-width: 766px) {
   /* for SP */
   .common_style {
@@ -218,6 +224,10 @@
   }
   .contact_btn {
     display: none;
+  }
+  .sub_title_half {
+    display: block;
+    line-height: 4px;
   }
   .menu_trigger {
     float: right;
@@ -268,6 +278,10 @@
   .picture_box {
     margin-bottom: 80px;
   }
+  .picture {
+    margin: 0;
+    display: block;
+  }
   .picture:nth-child(n+4) {
     margin-top: 0;
   }
@@ -276,10 +290,6 @@
   }
   .picture:last-child {
     margin-bottom: 0;
-  }
-  .picture {
-    margin: 0;
-    display: block;
   }
   .main_middle_text {
     float: none;
@@ -319,6 +329,9 @@
   .main_bar_inner {
     padding-bottom: 25px;
   }
+  .sub_title_half {
+    display: none;
+  }
   .iphone {
     float: none;
     margin-bottom: 20px;
@@ -332,6 +345,10 @@
   .picture_box {
     margin-bottom: 80px;
   }
+  .picture {
+    margin: 0 auto;
+    display: block;
+  }
   .picture:nth-child(n+4) {
     margin-top: 0;
   }
@@ -340,10 +357,6 @@
   }
   .picture:last-child {
     margin-bottom: 0;
-  }
-  .picture {
-    margin: 0 auto;
-    display: block;
   }
   .main_middle_text {
     float: none;
@@ -371,6 +384,9 @@
 @media screen and (min-width: 1200px) {
   /* for PC */
   .inner_contact_btn {
+    display: none;
+  }
+  .sub_title_half {
     display: none;
   }
 }

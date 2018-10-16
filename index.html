@@ -16,7 +16,7 @@
   <body>
     <header class="header">
       <div class="common_style header_bar clearfix">
-        <a href class="contact_btn">
+        <a href="#" class="contact_btn">
               <p>Contact</p>
         </a>
         <i class="fa fa-bolt fa_bolt"></i>
@@ -38,7 +38,8 @@
       <section class="title">
         <div class="common_style title_box">
           <h1 class="main_title">Bolt Theme</h1>
-          <p class="sub_title">FREE BOOTSTRAP THEMES</p>
+          <p class="sub_title">FREE BOOTSTRAP
+            <br class=sub_title_half>THEMES</p>
         </div>
       </section>
       <article class="main_bar">
@@ -77,7 +78,7 @@
           </div>
           <div class="main_middle_textbox clearfix">
             <p class="main_middle_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-            <a href class="send_mail_btn">
+            <a href="#" class="send_mail_btn">
               <p class="mail_btn_text">Email Me!</p>
             </a>
           </div>
@@ -128,12 +129,12 @@
         <p class="footer_text">Crafted with ❤︎ by BlankTie.co.</p>
       </div>
     </footer>
-    <script src="js/script.js">
-      document.getElementsByClassName("inner_contact_btn").style.display ="none";
+    <script>
+      document.getElementsByClassName("inner_contact_btn")[0].style.display ="none";
 
-      var el = document.getElementsByClassName("inner_contact_btn");
+      var el = document.getElementsByClassName("inner_contact_btn")[0];
 
-      var em = document.getElementsByClassName("menu_trigger");
+      var em = document.getElementsByClassName("menu_trigger")[0];
 
       em.addEventListener("click", function() {
       if (el.style.display == "none") {
